@@ -76,6 +76,7 @@
           "runtimes/any/lib/dotnet/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {},
       "Microsoft.NETCore/5.0.1-beta-23401": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.1-beta-23401, )",
@@ -274,23 +275,6 @@
         },
         "compile": {
           "ref/dotnet/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Microsoft.Win32.Registry/4.0.0-beta-23401": {
-        "dependencies": {
-          "System.Collections": "[4.0.10, )",
-          "System.Globalization": "[4.0.10, )",
-          "System.Resources.ResourceManager": "[4.0.0, )",
-          "System.Runtime": "[4.0.20, )",
-          "System.Runtime.Extensions": "[4.0.10, )",
-          "System.Runtime.Handles": "[4.0.0, )",
-          "System.Runtime.InteropServices": "[4.0.20, )"
-        },
-        "compile": {
-          "ref/dotnet/Microsoft.Win32.Registry.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/Microsoft.Win32.Registry.dll": {}
         }
       },
       "Newtonsoft.Json/7.0.1": {
@@ -1634,6 +1618,13 @@
           "runtimes/any/native/vbc.exe": {}
         }
       },
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+        "native": {
+          "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
+          "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
+          "runtimes/any/native/Microsoft.VisualBasic.Core.targets": {}
+        }
+      },
       "Microsoft.NETCore/5.0.1-beta-23401": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.1-beta-23401, )",
@@ -1832,23 +1823,6 @@
         },
         "compile": {
           "ref/dotnet/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Microsoft.Win32.Registry/4.0.0-beta-23401": {
-        "dependencies": {
-          "System.Collections": "[4.0.10, )",
-          "System.Globalization": "[4.0.10, )",
-          "System.Resources.ResourceManager": "[4.0.0, )",
-          "System.Runtime": "[4.0.20, )",
-          "System.Runtime.Extensions": "[4.0.10, )",
-          "System.Runtime.Handles": "[4.0.0, )",
-          "System.Runtime.InteropServices": "[4.0.20, )"
-        },
-        "compile": {
-          "ref/dotnet/Microsoft.Win32.Registry.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/Microsoft.Win32.Registry.dll": {}
         }
       },
       "Newtonsoft.Json/7.0.1": {
@@ -3729,6 +3703,13 @@
         "native": {
           "runtimes/any/native/csc.exe": {},
           "runtimes/any/native/vbc.exe": {}
+        }
+      },
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+        "native": {
+          "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
+          "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
+          "runtimes/any/native/Microsoft.VisualBasic.Core.targets": {}
         }
       },
       "Microsoft.NETCore/5.0.1-beta-23401": {
@@ -5971,6 +5952,13 @@
           "runtimes/any/native/vbc.exe": {}
         }
       },
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+        "native": {
+          "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
+          "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
+          "runtimes/any/native/Microsoft.VisualBasic.Core.targets": {}
+        }
+      },
       "Microsoft.NETCore/5.0.1-beta-23401": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.1-beta-23401, )",
@@ -8189,6 +8177,19 @@
         "runtimes/any/lib/dotnet/Microsoft.CodeAnalysis.VisualBasic.dll",
         "runtimes/any/native/csc.exe",
         "runtimes/any/native/vbc.exe"
+      ]
+    },
+    "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+      "sha512": "UyIgb2QEGX02mZLlAnz3Ouq/1hD0qCvbs6xsuYaVVvRpYqmC3KcXGwKYFn631dI9VdBXKdxQEJfzZ9bzNQ4VGQ==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "Microsoft.Net.Compilers.Targets.NetCore.nuspec",
+        "package/services/metadata/core-properties/8aaf63b7ee55474d89f654545a169306.psmdcp",
+        "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "runtimes/any/native/Microsoft.CSharp.Core.targets",
+        "runtimes/any/native/Microsoft.VisualBasic.Core.targets"
       ]
     },
     "Microsoft.NETCore/5.0.1-beta-23401": {
@@ -12729,13 +12730,13 @@
     "": [],
     "DNXCore,Version=v5.0": [
       "Microsoft.Net.Compilers.NetCore >= 1.1.0-beta-1",
+      "Microsoft.Net.Compilers.Targets.NetCore >= 0.1.1-dev",
       "Microsoft.NETCore >= 5.0.1-beta-23401",
       "Microsoft.NETCore.Platforms >= 1.0.1-beta-23401",
       "Microsoft.NETCore.Portable.Compatibility >= 1.0.1-beta-23401",
       "Microsoft.NETCore.Runtime >= 1.0.1-beta-23401",
       "Microsoft.NETCore.TestHost >= 1.0.0-beta-23401",
       "Microsoft.Win32.Primitives >= 4.0.1-beta-23401",
-      "Microsoft.Win32.Registry >= 4.0.0-beta-23401",
       "Newtonsoft.Json >= 7.0.1",
       "System.Console >= 4.0.0-beta-23401",
       "System.Diagnostics.FileVersionInfo >= 4.0.0-beta-23401",

@@ -29,7 +29,7 @@
         "Microsoft.NETCore.Runtime": "1.0.1-beta-23401",
         "Microsoft.NETCore.TestHost": "1.0.0-beta-23401",
         "Microsoft.Net.Compilers.NetCore": "1.1.0-beta-1",
-        "Microsoft.Win32.Registry": "4.0.0-beta-23401",
+        "Microsoft.Net.Compilers.Targets.NetCore": "0.1.1-dev",
         "Microsoft.Win32.Primitives":  "4.0.1-beta-23401",
         "Newtonsoft.Json": "7.0.1",
         "xunit": "2.1.0",
