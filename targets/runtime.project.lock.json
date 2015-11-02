@@ -76,7 +76,7 @@
           "runtimes/any/lib/dotnet/Microsoft.CodeAnalysis.VisualBasic.dll": {}
         }
       },
-      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {},
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {},
       "Microsoft.NETCore/5.0.1-beta-23401": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.1-beta-23401, )",
@@ -1618,7 +1618,7 @@
           "runtimes/any/native/vbc.exe": {}
         }
       },
-      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {
         "native": {
           "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
           "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
@@ -3705,7 +3705,7 @@
           "runtimes/any/native/vbc.exe": {}
         }
       },
-      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {
         "native": {
           "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
           "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
@@ -5952,7 +5952,7 @@
           "runtimes/any/native/vbc.exe": {}
         }
       },
-      "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
+      "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {
         "native": {
           "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll": {},
           "runtimes/any/native/Microsoft.CSharp.Core.targets": {},
@@ -8179,14 +8179,14 @@
         "runtimes/any/native/vbc.exe"
       ]
     },
-    "Microsoft.Net.Compilers.Targets.NetCore/0.1.1-dev": {
-      "sha512": "UyIgb2QEGX02mZLlAnz3Ouq/1hD0qCvbs6xsuYaVVvRpYqmC3KcXGwKYFn631dI9VdBXKdxQEJfzZ9bzNQ4VGQ==",
+    "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {
+      "sha512": "o0evbrtQqm5mRmIkEmFdVirda7wM1uJM91YBS2JaPRiAcgaK+wGlTfOx+jjum+B+TKEVca2dw2IAUIJn8R1otg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
         "Microsoft.Net.Compilers.Targets.NetCore.nuspec",
-        "package/services/metadata/core-properties/8aaf63b7ee55474d89f654545a169306.psmdcp",
+        "package/services/metadata/core-properties/a62bffe617804bae984fd051c7cc6f2d.psmdcp",
         "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll",
         "runtimes/any/native/Microsoft.CSharp.Core.targets",
         "runtimes/any/native/Microsoft.VisualBasic.Core.targets"
@@ -12730,7 +12730,7 @@
     "": [],
     "DNXCore,Version=v5.0": [
       "Microsoft.Net.Compilers.NetCore >= 1.1.0-beta-1",
-      "Microsoft.Net.Compilers.Targets.NetCore >= 0.1.1-dev",
+      "Microsoft.Net.Compilers.Targets.NetCore >= 0.1.2-dev",
       "Microsoft.NETCore >= 5.0.1-beta-23401",
       "Microsoft.NETCore.Platforms >= 1.0.1-beta-23401",
       "Microsoft.NETCore.Portable.Compatibility >= 1.0.1-beta-23401",
