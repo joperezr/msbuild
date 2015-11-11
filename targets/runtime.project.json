@@ -28,7 +28,7 @@
         "System.Xml.ReaderWriter": "4.0.11-beta-23428",
         "Microsoft.NETCore.Runtime": "1.0.1-beta-23428",
         "Microsoft.NETCore.TestHost": "1.0.0-beta-23428",
-        "Microsoft.Net.Compilers.NetCore": "1.2.0-beta-20151103-01",
+        "Microsoft.Net.Compilers.NetCore": "1.2.0-beta-20151111-01",
         "Microsoft.Net.Compilers.Targets.NetCore": "0.1.2-dev",
         "Microsoft.Win32.Primitives":  "4.0.1-beta-23428",
         "Newtonsoft.Json": "7.0.1",

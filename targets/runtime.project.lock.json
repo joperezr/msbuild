@@ -4,10 +4,9 @@
   "targets": {
     "DNXCore,Version=v5.0": {
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {},
-      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151111-01": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "[1.0.0, 1.2.0)",
-          "Microsoft.DiaSymReader.Native": "[1.3.0, )",
           "System.Collections.Immutable": "[1.1.37, )",
           "System.Reflection.Metadata": "[1.1.0, )"
         },
@@ -18,15 +17,15 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]",
-          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]",
+          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -35,9 +34,9 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, )"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, )"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.dll": {}
@@ -72,10 +71,9 @@
           "lib/dotnet5.4/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DiaSymReader.Native/1.3.0": {},
-      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151103-01": {
+      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151103-01, )",
+          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151111-01, )",
           "System.AppContext": "[4.0.1-beta-23428, )",
           "System.Collections": "[4.0.11-beta-23428, )",
           "System.Collections.Immutable": "[1.1.37, )",
@@ -1600,10 +1598,9 @@
     },
     "DNXCore,Version=v5.0/ubuntu.14.04-x64": {
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {},
-      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151111-01": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "[1.0.0, 1.2.0)",
-          "Microsoft.DiaSymReader.Native": "[1.3.0, )",
           "System.Collections.Immutable": "[1.1.37, )",
           "System.Reflection.Metadata": "[1.1.0, )"
         },
@@ -1614,15 +1611,15 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]",
-          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]",
+          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -1631,9 +1628,9 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, )"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, )"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.dll": {}
@@ -1668,10 +1665,9 @@
           "lib/dotnet5.4/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DiaSymReader.Native/1.3.0": {},
-      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151103-01": {
+      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151103-01, )",
+          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151111-01, )",
           "System.AppContext": "[4.0.1-beta-23428, )",
           "System.Collections": "[4.0.11-beta-23428, )",
           "System.Collections.Immutable": "[1.1.37, )",
@@ -2936,34 +2932,6 @@
           "lib/DNXCore50/System.Reflection.DispatchProxy.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Emit.ILGeneration": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.dll": {}
-        }
-      },
-      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
-        }
-      },
       "System.Reflection.Emit.Lightweight/4.0.1-beta-23428": {
         "dependencies": {
           "System.Reflection": "[4.0.0, )",
@@ -2988,30 +2956,6 @@
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Extensions.dll": {}
-        }
-      },
-      "System.Reflection.Metadata/1.1.1-beta-23428": {
-        "dependencies": {
-          "System.Collections": "[4.0.0, )",
-          "System.Collections.Immutable": "[1.1.37, )",
-          "System.Diagnostics.Debug": "[4.0.0, )",
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Extensions": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Resources.ResourceManager": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )",
-          "System.Runtime.Extensions": "[4.0.0, )",
-          "System.Runtime.InteropServices": "[4.0.0, )",
-          "System.Text.Encoding": "[4.0.0, )",
-          "System.Text.Encoding.Extensions": "[4.0.0, )",
-          "System.Threading": "[4.0.0, )"
-        },
-        "compile": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
       "System.Reflection.Primitives/4.0.1-beta-23428": {
@@ -3697,10 +3641,9 @@
     },
     "DNXCore,Version=v5.0/win7-x64": {
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {},
-      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151111-01": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "[1.0.0, 1.2.0)",
-          "Microsoft.DiaSymReader.Native": "[1.3.0, )",
           "System.Collections.Immutable": "[1.1.37, )",
           "System.Reflection.Metadata": "[1.1.0, )"
         },
@@ -3711,15 +3654,15 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]",
-          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]",
+          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -3728,9 +3671,9 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, )"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, )"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.dll": {}
@@ -3765,14 +3708,9 @@
           "lib/dotnet5.4/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DiaSymReader.Native/1.3.0": {
-        "native": {
-          "runtimes/win-x64/native/Microsoft.DiaSymReader.Native.amd64.dll": {}
-        }
-      },
-      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151103-01": {
+      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151103-01, )",
+          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151111-01, )",
           "System.AppContext": "[4.0.1-beta-23428, )",
           "System.Collections": "[4.0.11-beta-23428, )",
           "System.Collections.Immutable": "[1.1.37, )",
@@ -5204,34 +5142,6 @@
           "lib/DNXCore50/System.Reflection.DispatchProxy.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Emit.ILGeneration": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.dll": {}
-        }
-      },
-      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
-        }
-      },
       "System.Reflection.Emit.Lightweight/4.0.1-beta-23428": {
         "dependencies": {
           "System.Reflection": "[4.0.0, )",
@@ -5256,30 +5166,6 @@
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Extensions.dll": {}
-        }
-      },
-      "System.Reflection.Metadata/1.1.1-beta-23428": {
-        "dependencies": {
-          "System.Collections": "[4.0.0, )",
-          "System.Collections.Immutable": "[1.1.37, )",
-          "System.Diagnostics.Debug": "[4.0.0, )",
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Extensions": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Resources.ResourceManager": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )",
-          "System.Runtime.Extensions": "[4.0.0, )",
-          "System.Runtime.InteropServices": "[4.0.0, )",
-          "System.Text.Encoding": "[4.0.0, )",
-          "System.Text.Encoding.Extensions": "[4.0.0, )",
-          "System.Threading": "[4.0.0, )"
-        },
-        "compile": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
       "System.Reflection.Primitives/4.0.1-beta-23428": {
@@ -6020,10 +5906,9 @@
     },
     "DNXCore,Version=v5.0/win7-x86": {
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {},
-      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151111-01": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "[1.0.0, 1.2.0)",
-          "Microsoft.DiaSymReader.Native": "[1.3.0, )",
           "System.Collections.Immutable": "[1.1.37, )",
           "System.Reflection.Metadata": "[1.1.0, )"
         },
@@ -6034,15 +5919,15 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]",
-          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.CSharp": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]",
+          "Microsoft.CodeAnalysis.VisualBasic": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, 1.2.0-beta-20151103-01]"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, 1.2.0-beta-20151111-01]"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
@@ -6051,9 +5936,9 @@
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151103-01": {
+      "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151103-01, )"
+          "Microsoft.CodeAnalysis.Common": "[1.2.0-beta-20151111-01, )"
         },
         "compile": {
           "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.dll": {}
@@ -6088,14 +5973,9 @@
           "lib/dotnet5.4/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DiaSymReader.Native/1.3.0": {
-        "native": {
-          "runtimes/win-x86/native/Microsoft.DiaSymReader.Native.x86.dll": {}
-        }
-      },
-      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151103-01": {
+      "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151111-01": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151103-01, )",
+          "Microsoft.CodeAnalysis.Compilers": "[1.2.0-beta-20151111-01, )",
           "System.AppContext": "[4.0.1-beta-23428, )",
           "System.Collections": "[4.0.11-beta-23428, )",
           "System.Collections.Immutable": "[1.1.37, )",
@@ -7527,34 +7407,6 @@
           "lib/DNXCore50/System.Reflection.DispatchProxy.dll": {}
         }
       },
-      "System.Reflection.Emit/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Emit.ILGeneration": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.2/System.Reflection.Emit.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.dll": {}
-        }
-      },
-      "System.Reflection.Emit.ILGeneration/4.0.1-beta-23428": {
-        "dependencies": {
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )"
-        },
-        "compile": {
-          "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll": {}
-        }
-      },
       "System.Reflection.Emit.Lightweight/4.0.1-beta-23428": {
         "dependencies": {
           "System.Reflection": "[4.0.0, )",
@@ -7579,30 +7431,6 @@
         },
         "runtime": {
           "lib/DNXCore50/System.Reflection.Extensions.dll": {}
-        }
-      },
-      "System.Reflection.Metadata/1.1.1-beta-23428": {
-        "dependencies": {
-          "System.Collections": "[4.0.0, )",
-          "System.Collections.Immutable": "[1.1.37, )",
-          "System.Diagnostics.Debug": "[4.0.0, )",
-          "System.IO": "[4.0.0, )",
-          "System.Reflection": "[4.0.0, )",
-          "System.Reflection.Extensions": "[4.0.0, )",
-          "System.Reflection.Primitives": "[4.0.0, )",
-          "System.Resources.ResourceManager": "[4.0.0, )",
-          "System.Runtime": "[4.0.0, )",
-          "System.Runtime.Extensions": "[4.0.0, )",
-          "System.Runtime.InteropServices": "[4.0.0, )",
-          "System.Text.Encoding": "[4.0.0, )",
-          "System.Text.Encoding.Extensions": "[4.0.0, )",
-          "System.Threading": "[4.0.0, )"
-        },
-        "compile": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.2/System.Reflection.Metadata.dll": {}
         }
       },
       "System.Reflection.Primitives/4.0.1-beta-23428": {
@@ -8360,8 +8188,8 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151103-01": {
-      "sha512": "B1UBTlaNFAeWde/SZ7rXEQ39BGfyDmGZ7s5/2+OeukbKbCkg3DcVmXbSCNBY+I4Lw9KjUoWqxYw1KzWda5SYAw==",
+    "Microsoft.CodeAnalysis.Common/1.2.0-beta-20151111-01": {
+      "sha512": "9aCASLd/UjieJHG4N6tNqBY9tC/INFJThwzwC2X7333X11HBD9doojr9Js+8H2f68hdRhdpFLwhOeS5dM5Tw4Q==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -8371,23 +8199,23 @@
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.dll",
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.xml",
         "Microsoft.CodeAnalysis.Common.nuspec",
-        "package/services/metadata/core-properties/cf3f91f21a274f659d9a3b86cefb5614.psmdcp",
+        "package/services/metadata/core-properties/77d668976fb94dec9bbb1ab879113e86.psmdcp",
         "ThirdPartyNotices.rtf"
       ]
     },
-    "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151103-01": {
-      "sha512": "KmkRh1q+u85SsEuhNu+VS9En5k/TZQmbltfH8vWo0L/AD2qqchQwHwlCeZ3ybTpe4wXQ+8ppCAWgp5dJpq/1AA==",
+    "Microsoft.CodeAnalysis.Compilers/1.2.0-beta-20151111-01": {
+      "sha512": "h+3y1egp4xKq1s77Iebe0MGgZnZGtbdbKxmB1niNFiLAFAF8Y/m/OArsXZHg8mKwcRMnnEO+19xh8648A1umZg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
         "Microsoft.CodeAnalysis.Compilers.nuspec",
-        "package/services/metadata/core-properties/06f053a2dc224e67a7cd768659dd13e1.psmdcp",
+        "package/services/metadata/core-properties/9d411b2713944c7ba1d2ecc0cf81d182.psmdcp",
         "ThirdPartyNotices.rtf"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151103-01": {
-      "sha512": "HVBBuCAGmb++Wcr8pRRA+S+BNsi7rvfgstWmPw2/TQfLXhLbdIX30BpFdnwzYq/OxBIz+c4W6YwaMYamubRX9w==",
+    "Microsoft.CodeAnalysis.CSharp/1.2.0-beta-20151111-01": {
+      "sha512": "dlJX5z7CsZFBz6w3fjjPTQs5gNdurTXJFFLhv6xRAEcDBnq+E6ORdWgkOLr3jSRuoYFxdr14ogfjZJ8sX0WJxA==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -8397,12 +8225,12 @@
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.dll",
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.CSharp.xml",
         "Microsoft.CodeAnalysis.CSharp.nuspec",
-        "package/services/metadata/core-properties/957bd7c7217544f385278d2af10019c7.psmdcp",
+        "package/services/metadata/core-properties/f2692207417a4efb9aea4bf586f917eb.psmdcp",
         "ThirdPartyNotices.rtf"
       ]
     },
-    "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151103-01": {
-      "sha512": "Rzbff1Oe6Pz2TfiU5LSiNODJJ/1Dh+TJWEOyTT2cYkby1P2Udxffog0bmgIWPBvZGEm1FvTYsXVNxySn1ztCAA==",
+    "Microsoft.CodeAnalysis.VisualBasic/1.2.0-beta-20151111-01": {
+      "sha512": "S8oBb9dYmJA0LhfIZpb2l5TM5ugf/rlXQFFKtrBhA+oAlqcmVhYAZNzPa6c87NeCqsDMAU28A/UMgc5SH1kfFA==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -8412,7 +8240,7 @@
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.dll",
         "lib/portable-net45+win8/Microsoft.CodeAnalysis.VisualBasic.xml",
         "Microsoft.CodeAnalysis.VisualBasic.nuspec",
-        "package/services/metadata/core-properties/762420a62a2348108428286071d47d0e.psmdcp",
+        "package/services/metadata/core-properties/01a4ae2b2a7a4ffb9a361cdee6e7d848.psmdcp",
         "ThirdPartyNotices.rtf"
       ]
     },
@@ -8466,42 +8294,26 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "Microsoft.DiaSymReader.Native/1.3.0": {
-      "sha512": "SOJ7SQGJvXJesWiRQ6YMZYbQNor7ID2MYMfhwcffbWTXGjIm3Zi8SbJ3c2YERagVlL9UpRU93jm7GXYJhVj6Sw==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "Microsoft.DiaSymReader.Native.nuspec",
-        "package/services/metadata/core-properties/4cddea24a9c44495aca95eb46f272367.psmdcp",
-        "runtimes/win/native/Microsoft.DiaSymReader.Native.amd64.dll",
-        "runtimes/win/native/Microsoft.DiaSymReader.Native.arm.dll",
-        "runtimes/win/native/Microsoft.DiaSymReader.Native.x86.dll",
-        "runtimes/win8-arm/native/Microsoft.DiaSymReader.Native.arm.dll",
-        "runtimes/win-x64/native/Microsoft.DiaSymReader.Native.amd64.dll",
-        "runtimes/win-x86/native/Microsoft.DiaSymReader.Native.x86.dll"
-      ]
-    },
-    "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151103-01": {
-      "sha512": "D0vXw0nBkApisHPPdY33svjMD+WIdF0+0hJyru+a40p8DcBXjQuK990rdi7ia7BZAEajMm+rty4WtEVgHd13Zg==",
+    "Microsoft.Net.Compilers.NetCore/1.2.0-beta-20151111-01": {
+      "sha512": "wzTDFLaYK8i1keXkeD+Y6fDyKYGgkkTDJhRxsHSSTjOlNmw4ymg77Ueqje1tIdLvPSEHXj5QcO4gP819IwO6rQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
         "Microsoft.Net.Compilers.netcore.nuspec",
-        "package/services/metadata/core-properties/f092e4ef82254c57a2d8b3168e2998c1.psmdcp",
+        "package/services/metadata/core-properties/e67c15f1b4ef48b8aefbd6dd667eb49b.psmdcp",
         "runtimes/any/native/csc.exe",
         "runtimes/any/native/vbc.exe"
       ]
     },
     "Microsoft.Net.Compilers.Targets.NetCore/0.1.2-dev": {
-      "sha512": "o0evbrtQqm5mRmIkEmFdVirda7wM1uJM91YBS2JaPRiAcgaK+wGlTfOx+jjum+B+TKEVca2dw2IAUIJn8R1otg==",
+      "sha512": "qu63tMd4wB8uClqCwQIZPAtyyFfLyVfrW7oACclrHzVJNcC1eyGIfiAamcX65Lhfj7FGpVSYSscCiLhO+TioZw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
         "Microsoft.Net.Compilers.Targets.NetCore.nuspec",
-        "package/services/metadata/core-properties/a62bffe617804bae984fd051c7cc6f2d.psmdcp",
+        "package/services/metadata/core-properties/ff2afc8e827742a285ea2b50b2723b15.psmdcp",
         "runtimes/any/native/Microsoft.Build.Tasks.CodeAnalysis.dll",
         "runtimes/any/native/Microsoft.CSharp.Core.targets",
         "runtimes/any/native/Microsoft.VisualBasic.Core.targets"
@@ -11770,36 +11582,6 @@
         "System.Reflection.Emit.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.0.1-beta-23428": {
-      "sha512": "hNhrqeX0qxEQhJWgVbhHwjqt8q78mp04ZqVRN1WYVa/18hZ64VApkoMUC6VblNR0UyzTRbt7WsHbKWWhqWOkyA==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "lib/DNXCore50/System.Reflection.Emit.dll",
-        "lib/MonoAndroid10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/System.Reflection.Emit.dll",
-        "lib/xamarinmac20/_._",
-        "package/services/metadata/core-properties/caa06a5fa0724fa9afadaf39c7589b6f.psmdcp",
-        "ref/dotnet5.2/de/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/es/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/fr/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/it/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/ja/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/ko/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/ru/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/System.Reflection.Emit.dll",
-        "ref/dotnet5.2/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/zh-hans/System.Reflection.Emit.xml",
-        "ref/dotnet5.2/zh-hant/System.Reflection.Emit.xml",
-        "ref/MonoAndroid10/_._",
-        "ref/net45/_._",
-        "ref/xamarinmac20/_._",
-        "runtimes/aot/lib/netcore50/_._",
-        "System.Reflection.Emit.nuspec"
-      ]
-    },
     "System.Reflection.Emit.ILGeneration/4.0.0": {
       "sha512": "02okuusJ0GZiHZSD2IOLIN41GIn6qOr7i5+86C98BPuhlwWqVABwebiGNvhDiXP1f9a6CxEigC7foQD42klcDg==",
       "type": "Package",
@@ -11824,34 +11606,6 @@
         "ref/dotnet/zh-hant/System.Reflection.Emit.ILGeneration.xml",
         "ref/net45/_._",
         "ref/wp80/_._",
-        "System.Reflection.Emit.ILGeneration.nuspec"
-      ]
-    },
-    "System.Reflection.Emit.ILGeneration/4.0.1-beta-23428": {
-      "sha512": "cg2Z26AKvZ70IN4E248vLQm9u1FarUxCfLsHH1gK1I7LRFMKCnBV48p0Kg/hqNsssI8D/H2DuZfE4Gc+mLmRIg==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "lib/DNXCore50/System.Reflection.Emit.ILGeneration.dll",
-        "lib/net45/_._",
-        "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
-        "lib/wp80/_._",
-        "package/services/metadata/core-properties/ffebb67361e24f54b85aa688dde75d50.psmdcp",
-        "ref/dotnet5.1/de/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/es/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/fr/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/it/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/ja/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/ko/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/ru/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.dll",
-        "ref/dotnet5.1/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/zh-hans/System.Reflection.Emit.ILGeneration.xml",
-        "ref/dotnet5.1/zh-hant/System.Reflection.Emit.ILGeneration.xml",
-        "ref/net45/_._",
-        "ref/wp80/_._",
-        "runtimes/aot/lib/netcore50/_._",
         "System.Reflection.Emit.ILGeneration.nuspec"
       ]
     },
@@ -11937,20 +11691,6 @@
         "lib/portable-net45+win8/System.Reflection.Metadata.dll",
         "lib/portable-net45+win8/System.Reflection.Metadata.xml",
         "package/services/metadata/core-properties/f9d77df49aee46698d78faee45b96d9d.psmdcp",
-        "System.Reflection.Metadata.nuspec"
-      ]
-    },
-    "System.Reflection.Metadata/1.1.1-beta-23428": {
-      "sha512": "aicq/+SVNVm6Ga0qWAFzo3NZxLMUyUDFAgXSsDPJDCpSSMUOVW1oNsFE5CjTHgJjQM7ni/N2QgN2Y0DGYYDgAg==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "lib/dotnet5.2/System.Reflection.Metadata.dll",
-        "lib/dotnet5.2/System.Reflection.Metadata.xml",
-        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
-        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
-        "package/services/metadata/core-properties/3b00ff8dfcf34fb8914839c7436cec7b.psmdcp",
         "System.Reflection.Metadata.nuspec"
       ]
     },
@@ -13753,7 +13493,7 @@
   "projectFileDependencyGroups": {
     "": [],
     "DNXCore,Version=v5.0": [
-      "Microsoft.Net.Compilers.NetCore >= 1.2.0-beta-20151103-01",
+      "Microsoft.Net.Compilers.NetCore >= 1.2.0-beta-20151111-01",
       "Microsoft.Net.Compilers.Targets.NetCore >= 0.1.2-dev",
       "Microsoft.NETCore >= 5.0.1-beta-23428",
       "Microsoft.NETCore.Platforms >= 1.0.1-beta-23428",
